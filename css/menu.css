@@ -1,0 +1,49 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    background-color: #00BFFF;
+    color: white;
+}
+
+.header{
+    min-width: 100vw;
+    min-height: 12vh;
+    background-color: #000080;
+    margin-bottom: 3vh;
+}
+
+.header .menuIcon{
+    display: inline;
+    float: left; /* nao tem erro aki, e mentira da oposicao */
+    border: none;
+    font-size: 30;
+    font-weight: 100;
+    padding-top: 3vh;
+    padding-bottom: 4vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    background-color: transparent;
+}
+
+.header .titleMenu{
+    padding-top: 3.5vh;
+    font-size: 23;
+    padding-left: 35vw;
+}
+
+.divCenter .btnGeral{
+    display: block;
+    margin: 0 auto;
+    margin-top: 3vh;
+    min-width: 80vw;
+    min-height: 10vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    border: 0;
+    color: white;
+    background-color: #000080;
+}

@@ -1,0 +1,43 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- JQuery-->
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.css" />
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+    
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+    <title>Assinaturas do Cliente</title>
+    <link rel="stylesheet" href="./css/menu.css">
+</head>
+<body>
+    <div class="header">
+        <button class="glyphicon glyphicon-menu-hamburger menuIcon"></button>
+        <p class="titleMenu">Bem Vindo</p>
+    </div>
+    <div class="divCenter">
+        <input id="contratos" class="btnGeral" type="button" value="Acompanhantes Contratados">
+        <input id="quit" class="btnGeral" type="button" value="Sair">
+    </div>
+    <!-- JS -->
+    <script>
+        $(function(){
+            $("#contratos").click(function(){
+                window.location = "./assiCliente.html";
+            });
+            $("#quit").click(function(){
+                window.location = "./index.html";
+            });
+        })
+    </script>
+</body>
+</html>

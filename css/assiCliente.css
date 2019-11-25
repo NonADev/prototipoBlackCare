@@ -1,0 +1,90 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    background-color: #00BFFF;
+    color: white;
+}
+
+.header{
+    min-width: 100vw;
+    min-height: 12vh;
+    background-color: #000080;
+}
+
+.header .title{
+    padding-top: 3.5vh;
+    font-size: 23;
+}
+.header .rowButton{
+    display: inline;
+    float: left;
+    border: none;
+    font-size: 30;
+    font-weight: 100;
+    padding-top: 3vh;
+    padding-bottom: 4vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    background-color: transparent;
+}
+
+.boxHistory .history{
+    min-width: 100vw;
+    max-width: 100vw;
+    min-height: 14vh;
+    color: black;
+    background-color: white;
+    border-bottom: 1px solid #DCDCDC;
+    box-shadow: none;
+}
+
+.boxHistory .history *{
+    font-size: 20;
+    display: inline-block;
+}
+
+.boxHistory .history p{
+    width: 28%;
+    float: left;
+    padding-top: 3vh;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    height: 12vh;
+    color: #696969;
+}
+
+.boxHistory .history h4{
+    margin-top: 0;
+    padding-top: 3.5vh;
+}
+
+.boxHistory .history h5{
+    margin-top: 0;
+    padding-top: 0.2vh;
+}
+
+.boxHistory .history button{
+    float: right;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    padding-right: 7vw;
+    padding-left: 7vw;
+    border: none;
+    background-color: transparent;
+    color: #00BFFF;
+    text-shadow: -0.05em 0.05em 0.2em rgba(0,0,0,0.2);
+}
+
+.boxHistory .date{
+    padding: 0;
+    margin: 0;
+    padding-top: 3vh;
+    padding-bottom: 1.5vh;
+    padding-left: 4vw;
+    background-color:#DCDCDC;
+    color: #808080;
+    font-size: 15;
+    font-weight: bolder;
+}

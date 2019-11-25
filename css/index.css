@@ -1,0 +1,62 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    background-color: #00BFFF;
+    color: white;
+}
+
+hr{
+    width: 60vw;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+p{
+    font-size: 14;
+    font-weight: bolder;
+    margin-top: 3vh;
+    text-align: center;
+}
+
+.centerInputs input{
+    width: 60vw;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    border: none;
+    color: white;
+}
+
+.centerInputs button{
+    width: 60vw;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    background-image: linear-gradient(#4682B4, #4682B4);
+}
+
+.centerInputs input, .centerInputs button{
+    display: block;
+    margin: 0 auto;
+    background-color: transparent;
+}
+
+.centerInputs input::placeholder{
+    color: white;
+}
+
+.input-username{
+    border: none;
+    background-color: transparent;
+}
+
+.logo{
+    display: block;
+    margin: 0 auto;
+    width: 50vw;
+    height: 50vw;
+    margin-top: 5vh;
+}
